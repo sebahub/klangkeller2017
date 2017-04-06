@@ -291,6 +291,19 @@ h1 {
   header img {
     margin-top: -200px;
     margin-left: 700px; } }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px; }
+
+  .claim {
+    font-size: 30px; }
+
+  header img {
+    margin-left: 60%;
+    width: 200px; }
+
+  nav {
+    display: none; } }
 .one_content {
   display: flex;
   justify-content: space-between; }
@@ -625,6 +638,19 @@ fieldset {
 .ort {
   margin-bottom: 8px; }
 
+@media screen and (max-width: 768px) {
+  #four {
+    margin-bottom: 80px; }
+
+  .four_content {
+    display: block; }
+
+  .formfield {
+    width: 100%; }
+
+  .anschrift {
+    width: 100%;
+    padding-top: 0; } }
 footer {
   width: 100%;
   background: #333333;
