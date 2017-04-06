@@ -7,10 +7,10 @@
     padding: 0 2.5%
     text-align: center
     border: 1px solid $color-strong
-    &:nth-of-type(2)
+    //&:nth-of-type(2)
       margin: 0 1%
     img
-      margin-top: $padding-main * 6
+      margin-top: $padding-main * 4
       height: 80px
       width: 80px
 
@@ -19,3 +19,19 @@
       text-align: center
     p
       text-align: center
+
+@media screen and (max-width : $size-medium)
+  .one_content
+    display: block
+    article
+      margin: 0
+      min-height: 250px
+      height: auto
+      margin-bottom: 16px
+      padding-bottom: 2%
+      p
+        width: 90%
+        //background: red
+        margin: auto
+      img
+        margin-top: $padding-main * 1
